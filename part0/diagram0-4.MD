@@ -1,4 +1,4 @@
-sequenceDiagram
+```sequenceDiagram
 	participant user
 	participant browser
 	participant server
@@ -9,3 +9,4 @@ sequenceDiagram
 	server receive request
 	server->>browser: send status(200)
 	browser->>user: print text to screen
+```
